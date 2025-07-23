@@ -1,0 +1,21 @@
+# Telegram Configuration
+TELEGRAM_BOT_TOKEN=7831912082:AAFu8YqwtILwjZ0kRwGr9tQPQKFDSm-JjEc
+
+# Mailsac Configuration
+MAILSAC_API_KEY=k_T6XyHP9EECtwaipffcmg6COBLY87PXWodMs07
+MAILSAC_BASE_URL=https://mailsac.com/api
+
+# Google Gemini Configuration
+GOOGLE_AI_API_KEY=AIzaSyAzI9CswaHp-158uglhHWIyQnX5aOzbvcI
+GEMINI_MODEL=gemini-pro
+
+# Bot Configuration (Optional)
+BOT_USERNAME=your_bot_username
+WEBHOOK_URL=your_webhook_url
+DEBUG=false
+LOG_LEVEL=INFO
+
+# Email Configuration (Optional)
+DEFAULT_EMAIL_DOMAIN=mailsac.com
+EMAIL_RETENTION_HOURS=24
+MAX_EMAILS_PER_USER=10

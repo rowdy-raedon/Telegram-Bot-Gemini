@@ -9,4 +9,5 @@ from .services import ServicesMiddleware
 
 def setup_middleware(dp: Dispatcher, mailsac_service, gemini_service) -> None:
     """Setup all middleware."""
-    dp.middleware.setup(ServicesMiddleware(mailsac_service, gemini_service))
+    dp.message.middleware(ServicesMiddleware(mailsac_service, gemini_service))
+    dp.callback_query.middleware(ServicesMiddleware(mailsac_service, gemini_service))
